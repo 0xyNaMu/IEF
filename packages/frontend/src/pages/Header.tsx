@@ -8,17 +8,17 @@ export default () => {
             <div className="header">
                 <img src={require('../../public/logo.svg')} alt="UniRep logo" />
                 <div className="links">
-                    <a href="https://developer.unirep.io/" target="blank">
+                    <a href="https://github.com/0xyNaMu/IEF2/tree/master/Impact_Evaluation_Framework" target="blank">
                         Evaluation Framework
                     </a>
                     <a href="https://github.com/0xyNaMu/IEF2" target="blank">
                         GitHub
                     </a>
                     <a
-                        href="https://discord.com/invite/VzMMDJmYc5"
+                        href="https://www.canva.com/design/DAFld4hZzdM/NXoab7xbpNjzcZxP53TN2w/edit?utm_content=DAFld4hZzdM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                         target="blank"
                     >
-                        Discord
+                        How it works
                     </a>
                 </div>
             </div>
