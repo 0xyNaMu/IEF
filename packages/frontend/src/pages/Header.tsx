@@ -9,9 +9,9 @@ export default () => {
                 <img src={require('../../public/logo.svg')} alt="UniRep logo" />
                 <div className="links">
                     <a href="https://developer.unirep.io/" target="blank">
-                        Docs
+                        Evaluation Framework
                     </a>
-                    <a href="https://github.com/Unirep" target="blank">
+                    <a href="https://github.com/0xyNaMu/IEF2" target="blank">
                         GitHub
                     </a>
                     <a
