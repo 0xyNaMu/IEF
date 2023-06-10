@@ -85,7 +85,7 @@ export default observer(() => {
                     attester's application.{' '}
                 </p>
                 <p>
-                    Customize this landing page to onboard new users to your
+                    Customize here landing page to onboard new users to your
                     app.
                 </p>
             </div>
