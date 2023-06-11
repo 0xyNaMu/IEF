@@ -1,12 +1,6 @@
 <p align="center">
-    <h1 align="center">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/semaphore-protocol/website/blob/main/static/img/semaphore-icon-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/semaphore-protocol/website/blob/main/static/img/semaphore-icon.svg">
-        <img width="40" alt="Semaphore icon." src="https://github.com/semaphore-protocol/website/blob/main/static/img/semaphore-icon.svg">
-      </picture>
-      IEF: public goods anonymous peer impact measurement review
-    </h1>
+<h2> IEF: public goods anonymous peer impact measurement review
+    <h/2>
 </p>
 
 <div align="center">
@@ -84,115 +78,37 @@ Leveraging this Impact Evaluation Framework, I suggest the following process to 
                 1
             </td>
             <td>
-                Semaphore explorer for on-chain groups.
+               Self-reported impact evaluation
             </td>
             <td>    
-                <a href="https://github.com/semaphore-protocol/explorer">
-                    Github
-                </a>|
-                <a href="https://semaphore.appliedzkp.org/discord">
-                    Discord
-                </a>
+               Nominees will create a self-reported impact evaluation based on the impact their projects have had on the Ethereum Ecosystem and their ripple or direct impact on the Optimism Ecosystem. 
             </td>
         </tr>
         <tr>
             <td>
-                <a href="https://discord.com/api/oauth2/authorize?client_id=1082429985496772628&permissions=1024&scope=bot">
-                    Semaphore Discord Bot
+               2
                 </a>
             </td>
             <td>
-                A Discord bot for Semaphore.
+                Random, anonymous, peer evaluation
             </td>
             <td>    
-                <a href="https://github.com/semaphore-protocol/discord-bot">
-                    Github
-                </a>|
-                <a href="https://semaphore.appliedzkp.org/discord">
-                    Discord
-                </a>
+                Each project that has submitted a self-reported evaluation and has registered on the IEF platform will, at random, be assigned to evaluate 5 peer projects self-reported evaluations. Peer evaluations will be anonymous, meaning the evaluated projects will be unable to tell who evaluated them, which helps reduce collusion and retaliation. They will also be preserved as binary attestations within the UniRep protocol: meaning an evaluating project may only approve or dissaprove the self report issued by a peer. 
             </td>
         </tr>
         <tr>
             <td>
-                <a href="https://developer.unirep.io">
-                    Unirep
-                </a>
+                3
             </td>
             <td>
-                Private and nonrepudiable reputation system based on ZKP.
-            </td>
+Badgeholders evaluation of a random set of self-reported evaluations along the peer attestations to those reports.              </td>
             <td>    
-                <a href="https://github.com/Unirep">
-                    Github
-                </a>|
-                <a href="https://discord.gg/VzMMDJmYc5">
-                    Discord
-                </a>
+              Optimism Badgeholders will receive a capped random set of projects to evaluate. By capping the number of projects to be evaluated, badgeholders do not need to spread themselves thin. Additionally, through the use of the Impact Evaluation Framework and the results of the peer evaluation, badgeholders will have an increased amount of information to base their decisions on. 
             </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://zk-proof-of-humanity.vercel.app">
-                    ZK Proof of Humanity
-                </a>
-            </td>
-            <td>
-                A project to allows humans, registered in Proof of Humanity, to prove their humanity without doxing.
-            </td>
-            <td>    
-                <a href="https://github.com/elmol/zk-proof-of-humanity">
-                    Github
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Plurality
-            </td>
-            <td>
-                An Identity Lego Building Block for dapp creators that lets them identify their users without</br> using any third-party KYC provider or other middlemen, whilst preserving the privacy of users.
-            </td>
-            <td>    
-                <a href="https://github.com/Web3-Plurality">
-                    Github
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://zerotherapy.vercel.app">
-                    ZeroTherapy
-                </a>
-            </td>
-            <td>
-                AMA privacy application built with Semaphore.
-            </td>
-            <td>    
-                <a href="https://github.com/Pushpit07/ZeroTherapy">
-                    Github
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://bq2.netlify.app/">
-                    Block Qualified
-                </a>
-            </td>
-            <td>
-                On-chain and privacy preserving education platform built on Semaphore.
-            </td>
-            <td>    
-                <a href="https://github.com/0xdeenz/bq2">
-                    Github
-                </a>
-            </td>
-        </tr>
-    <tbody>
+           <tbody>
 </table>
 
-## 🛠 Install
+## 🛠 Process
 
 Clone this repository:
 
@@ -206,94 +122,14 @@ And install the dependencies:
 cd semaphore && yarn
 ```
 
-## 📜 Usage
+## 📜 Next Steps
 
-Copy the `.env.example` file as `.env`:
+1. Enable the use of POAPs as a data point to increase a projects reputation on the UniRep protocol. Having certain POAPs should contribute to giving more credibility to a projects evaluation of their peers. 
+2. Create user lists within the UniRep code so that projects are 1) able to evaluate peers in multiple categories AND have different reputation scores for each category, based on their qualifications in each of these categories. 
+3. Enable the carrying over of the reputation score from one epoch to the next. 
+4. Enable an increase in reputation per category by having participated in multiple peer evaluation rounds. 
 
-```bash
-cp .env.example .env
-```
+### Important
+Having anonymous peer review may prevent collusion and retaliation, but can also prevent the development of a healthy and nurturing community feedback loop that enhances projects work and improvement on previous iterations. 
 
-And add your environment variables.
 
-### Code quality and formatting
-
-Run [ESLint](https://eslint.org/) to analyze the code and catch bugs:
-
-```bash
-yarn lint
-```
-
-Run [Prettier](https://prettier.io/) to check formatting rules:
-
-```bash
-yarn prettier
-```
-
-Or to automatically format the code:
-
-```bash
-yarn prettier:write
-```
-
-### Conventional commits
-
-Semaphore uses [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). A [command line utility](https://github.com/commitizen/cz-cli) to commit using the correct syntax can be used by running:
-
-```bash
-yarn commit
-```
-
-It will also automatically check that the modified files comply with ESLint and Prettier rules.
-
-### Snark artifacts
-
-Download the Semaphore snark artifacts needed to generate and verify proofs:
-
-```bash
-yarn download:snark-artifacts
-```
-
-### Testing
-
-Run [Jest](https://jestjs.io/) to test the JS libraries:
-
-```bash
-yarn test:libraries
-```
-
-Run [Mocha](https://mochajs.org/) to test the contracts:
-
-```bash
-yarn test:contracts
-```
-
-Or test everything with:
-
-```bash
-yarn test
-```
-
-### Build libraries & compile contracts
-
-Run [Rollup](https://www.rollupjs.org) to build all the packages:
-
-```bash
-yarn build:libraries
-```
-
-Compile the smart contracts with [Hardhat](https://hardhat.org/):
-
-```bash
-yarn compile:contracts
-```
-
-### Documentation (JS libraries)
-
-Run [TypeDoc](https://typedoc.org/) to generate a documentation website for each package:
-
-```bash
-yarn docs
-```
-
-The output will be placed on the `docs` folder.
