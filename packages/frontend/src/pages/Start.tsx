@@ -22,8 +22,8 @@ export default observer(() => {
         <>
             <div className="bg">
                 <img
-                    src={require('../../public/hummingbird.svg')}
-                    alt="hummingbird at a flower"
+                    src={require('../../public/Wage.png')}
+                    alt="gbird at a flower"
                 />
             </div>
             <div className="content">
