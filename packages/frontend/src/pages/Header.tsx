@@ -6,7 +6,7 @@ export default () => {
     return (
         <>
             <div className="header">
-                <img src={require('../../public/logo.svg')} alt="UniRep logo" />
+                <img src={require('../../public/LogoIEF.png')} alt="IEF logo" height={200} />
                 <div className="links">
                     <a href="https://github.com/0xyNaMu/IEF2/tree/master/Impact_Evaluation_Framework" target="blank">
                         Evaluation Framework
