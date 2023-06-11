@@ -149,8 +149,8 @@ export default observer(() => {
                 <div style={{ display: 'flex' }}>
                     <div className="action-container">
                         <div className="icon">
-                            <h2>Change Data</h2>
-                            <Tooltip text="You can request changes to data here. The demo attester will freely change your data." />
+                            <h2>Evaluate your projects</h2>
+                            <Tooltip text="You can submit your peer evaluations here. Remember to evaluate all the projects you were sent." />
                         </div>
                         <div
                             style={{
@@ -167,7 +167,7 @@ export default observer(() => {
                                     return (
                                         <div key={i} style={{ margin: '4px' }}>
                                             <p>
-                                                Data {i} ({fieldType(i)})
+                                                Project {i} ({fieldType(i)})
                                             </p>
                                             <input
                                                 value={reqData[i] ?? ''}
@@ -190,7 +190,7 @@ export default observer(() => {
                         </div>
                         <div className="icon">
                             <p style={{ marginRight: '8px' }}>
-                                Epoch key nonce
+                                Identity for this evaluation period
                             </p>
                             <Tooltip text="Your epoch key is an identifier that is only valid to receive data during the current evaluation round. " />
                         </div>
