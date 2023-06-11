@@ -1,6 +1,7 @@
 <p align="center">
-<h2> IEF: public goods anonymous peer impact measurement review
-    <h/2>
+
+# IEF: public goods anonymous peer impact measurement review
+
 </p>
 
 <div align="center">
@@ -110,17 +111,7 @@ Badgeholders evaluation of a random set of self-reported evaluations along the p
 
 ## 🛠 Process
 
-Clone this repository:
 
-```bash
-git clone https://github.com/semaphore-protocol/semaphore.git
-```
-
-And install the dependencies:
-
-```bash
-cd semaphore && yarn
-```
 
 ## 📜 Next Steps
 
@@ -130,6 +121,10 @@ cd semaphore && yarn
 4. Enable an increase in reputation per category by having participated in multiple peer evaluation rounds. 
 
 ### Important
+
+
 Having anonymous peer review may prevent collusion and retaliation, but can also prevent the development of a healthy and nurturing community feedback loop that enhances projects work and improvement on previous iterations. 
+
+Therefore, I suggest running an A|B test in which a segment of evaluators are anonymous and another isn't to explore which group yields better results. 
 
 
