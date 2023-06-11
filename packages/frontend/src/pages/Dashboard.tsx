@@ -192,7 +192,7 @@ export default observer(() => {
                             <p style={{ marginRight: '8px' }}>
                                 Epoch key nonce
                             </p>
-                            <Tooltip text="Epoch keys are short lived identifiers for a user. They can be used to receive data and are valid only for 1 epoch." />
+                            <Tooltip text="Your epoch key is an identifier that is only valid to receive data during the current evaluation round. " />
                         </div>
                         <select
                             value={reqInfo.nonce ?? 0}
