@@ -27,18 +27,22 @@ export default observer(() => {
                 />
             </div>
             <div className="content">
-                <div style={{ fontSize: '70px', fontWeight: '600' }}>
-                    Congratulations
+                <div style={{ fontSize: '50px', fontWeight: '600' }}>
+                Impact measured, merit rewarded, ecosystem advanced
                 </div>
                 <div className="attester">
                     <div style={{ marginRight: '12px' }}>
-                        You have created a new UniRep attester{' '}
+                        Contribute with your expertise{' '}
                     </div>
-                    <Tooltip text="Attesters define their own data systems and are able to attest to users, giving them data." />
+                    <Tooltip text="You've been there. Endorse or reject how your peers have evaluated their impact, and help us provide insightful information to Optimism's badgeholders." />
                 </div>
                 <p>
-                    Clicking 'Join' adds a user to this attester's membership
-                    group.
+                    Clicking 'Sign-up' will check if your project has been whitelisted to evaluate other projects.
+                    </p>
+                    <p>
+                    Whitelisting is based on on-chain profile submissions to the <a style={{ marginLeft: "0" }}href="https://app.optimism.io/retropgf-discovery?tab=All%20projects" target="blank">
+                    Optimism app. 
+                    </a>
                 </p>
                 <div className="join">
                     {!userContext.hasSignedUp ? (
@@ -48,7 +52,7 @@ export default observer(() => {
                                 return userContext.signup()
                             }}
                         >
-                            {userContext.userState ? 'Join' : 'Initializing...'}
+                            {userContext.userState ? 'Sign-up' : 'Validating...'}
                             <span style={{ marginLeft: '12px' }}>
                                 <img
                                     src={require('../../public/arrow.svg')}
@@ -81,12 +85,10 @@ export default observer(() => {
                     )}
                 </div>
                 <p>
-                    After joining, the member can interact with data in the
-                    attester's application.{' '}
+                    Come back and check your Dashboard for updates once the project creation period is over.{' '}
                 </p>
                 <p>
-                    Customize here landing page to onboard new users to your
-                    app.
+                    You will be be asigned 5 projects at random to complete an anonymous review.
                 </p>
             </div>
         </>

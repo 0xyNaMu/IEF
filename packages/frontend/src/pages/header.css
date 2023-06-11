@@ -19,3 +19,7 @@ a:visited {
 .links {
     display: flex;
 }
+
+.links a {
+    width: 4rem;
+}
