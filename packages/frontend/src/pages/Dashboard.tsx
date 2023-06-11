@@ -63,19 +63,19 @@ export default observer(() => {
             <div className="container">
                 <div className="info-container">
                     <div className="info-item">
-                        <h3>Epoch</h3>
+                        <h3>Evaluation period</h3>
                         <Tooltip
-                            text={`An epoch is a unit of time, defined by the attester, with a state tree and epoch tree. User epoch keys are valid for 1 epoch before they change.`}
+                            text={`You will be able to evaluate your peer projects from Mar 7th to Mar 21st.`}
                         />
                     </div>
                     <div className="info-item">
-                        <div>Current epoch #</div>
+                        <div>Current evaluation period #</div>
                         <div className="stat">
                             {userContext.userState?.sync.calcCurrentEpoch()}
                         </div>
                     </div>
                     <div className="info-item">
-                        <div>Remaining time</div>
+                        <div>Remaining time in secs</div>
                         <div className="stat">{remainingTime}</div>
                     </div>
                     <div className="info-item">

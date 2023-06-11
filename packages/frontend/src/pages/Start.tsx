@@ -13,7 +13,7 @@ export default observer(() => {
     // if (!userContext.userState) {
     //     return (
     //     <div className="container">
-    //         Loading...
+    //         Validating...
     //     </div>
     //     )
     // }
@@ -68,7 +68,7 @@ export default observer(() => {
                                     lineHeight: '.5em',
                                 }}
                             >
-                                USER ADDED!
+                                EVALUATOR ADDED!
                             </p>
                             <Link to="/dashboard">
                                 <Button>
