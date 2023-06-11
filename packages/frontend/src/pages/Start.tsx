@@ -88,7 +88,7 @@ export default observer(() => {
                     Come back and check your Dashboard for updates once the project creation period is over.{' '}
                 </p>
                 <p>
-                    You will be be asigned 5 projects at random to complete an anonymous review.
+                    You will be asigned 5 projects at random, please complete the anonymous review of their impact.
                 </p>
             </div>
         </>
