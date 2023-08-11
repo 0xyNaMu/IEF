@@ -1,6 +1,6 @@
 Currently, there is no framework to measure the impact projects working in the Public Goods space have generated. This is particularly difficult for Community and Education projects, who often do not have the knowdlege on how to create and measure KPI's that demonstrate the value they generate to the Ethereum Ecosystem. This represents a challenge in the allocation of Public Good funding as most recently seen in Optimisms RetroPGF Round 2. 
 
-CryptoYollotl solves this challenge by enabling the:
+IEF solves this challenge by enabling the:
 
 1. **Improvement of the evaluation process**: Reduction of the time needs for badgeholders to evaluate the projects and generates a consensus around how to decide what is generating impact for the ecosystem. 
 
